@@ -16,6 +16,9 @@
     "gulp-autoprefixer": "~1.0.1",
     "gulp-ruby-sass": "~0.7.1",
     "gulp-scss-lint": "~0.1.4",
-    "gulp-livereload": "~2.1.1"
+    "gulp-livereload": "~2.1.1",
+    "connect-livereload": "~0.5.0",
+    "express": "~4.10.0",
+    "tiny-lr": "~0.1.4"
   }
 }
