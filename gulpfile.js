@@ -52,7 +52,4 @@ gulp.task('serve', function() {
   });
 });
 
-gulp.task('default', function() {
-	return gulp.src('src/*.scss')
-			.pipe(lint());
-});
+gulp.task('default',["serve","watch"]);
