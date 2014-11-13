@@ -1,1 +1,51 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,700,300,600,400);
+
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+}
+
+.header {
+  font-weight:lighter;
+}
+
+h1.header {
+  font-size:3rem;
+}
+
+h2.header {
+  font-size:2.4rem;
+}
+
+h3.header {
+font-size:2rem;
+}
+
+h4.header{
+font-size:1.4rem;
+}
+
+h5.header {
+  font-size:1rem;
+}
+
+h6.header {
+  font-size:0.75rem;
+}
+
+.text-left {
+  text-align:left;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.text-right {
+  text-align:right;
+}
+
+.text-justify {
+  text-align:justify;
+}
