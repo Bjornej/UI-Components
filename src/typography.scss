@@ -34,18 +34,52 @@ h6.header {
   font-size:0.75rem;
 }
 
-.text-left {
+.text--left {
   text-align:left;
 }
 
-.text-center {
+.text--center {
   text-align:center;
 }
 
-.text-right {
+.text--right {
   text-align:right;
 }
 
-.text-justify {
+.text--justify {
   text-align:justify;
 }
+
+  .citation-text {
+    margin:0;
+    font-size:1.75rem;
+    font-weight:lighter;
+
+    &::before {
+      content:"\201C  ";
+      font-style:italic;
+      font-weight:bold;
+    }
+
+    &::after {
+      content:"  \201D";
+      font-style:italic;
+      font-weight:bold;
+    }
+  }
+
+  .citation-footer {
+      font-style:normal;
+
+      &::before {
+        content:"\2014  ";
+      }
+  }
+
+  .citation--center {
+      text-align:center;
+  }
+
+  .citation--reverse {
+      text-align:right;
+  }
