@@ -6,32 +6,39 @@ html {
   font-size:16px;
 }
 
-.header {
-  font-weight:lighter;
-}
-
 h1.header {
   font-size:3rem;
+  font-weight:lighter;
 }
 
 h2.header {
   font-size:2.4rem;
+  font-weight:lighter;
 }
 
 h3.header {
-font-size:2rem;
+  font-size:2rem;
+  font-weight:lighter;
 }
 
 h4.header{
-font-size:1.4rem;
+  font-size:1.4rem;
+  font-weight:600;
 }
 
 h5.header {
   font-size:1rem;
+  font-weight:700;
 }
 
 h6.header {
-  font-size:0.75rem;
+  font-size:0.8rem;
+  font-weight:900;
+}
+
+p {
+  margin: 0 0 0.75rem;
+  line-height:1.45rem;
 }
 
 .text--left {
@@ -48,6 +55,27 @@ h6.header {
 
 .text--justify {
   text-align:justify;
+}
+
+.text--lowercase {
+  text-transform:lowercase;
+}
+
+.text--uppercase {
+  text-transform:uppercase;
+}
+
+.text--capitalize {
+  text-transform:capitalize;
+}
+
+.text--smallcaps {
+  font-variant: small-caps;
+}
+
+.address {
+  font-style:normal;
+  margin: 0 0 1rem;
 }
 
   .citation-text {
