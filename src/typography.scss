@@ -37,8 +37,8 @@ h6.header {
 }
 
 p {
-  margin: 0 0 0.75rem;
-  line-height:1.45rem;
+  margin: 0 0 0.75em;
+  line-height:1.45em;
 }
 
 .text--left {
@@ -75,12 +75,12 @@ p {
 
 .address {
   font-style:normal;
-  margin: 0 0 1rem;
+  margin: 0 0 1em;
 }
 
   .citation-text {
     margin:0;
-    font-size:1.75rem;
+    font-size:1.75em;
     font-weight:lighter;
 
     &::before {
@@ -98,10 +98,6 @@ p {
 
   .citation-footer {
       font-style:normal;
-
-      &::before {
-        content:"\2014  ";
-      }
   }
 
   .citation--center {
@@ -110,4 +106,53 @@ p {
 
   .citation--reverse {
       text-align:right;
+  }
+
+
+.list {
+  padding-left:1.75rem;
+}
+
+  .list--unordered {
+    list-style-type:disc;
+  }
+
+  .list--unstyled {
+    padding-left:0;
+    list-style-type:none;
+  }
+
+  .list--inline {
+    li {
+      display:inline-block;
+      padding: 0 0.5em;
+    }
+  }
+
+  .list--description {
+    padding-left:1em;
+
+    dt {
+      font-weight:bold;
+    }
+
+    dd {
+      margin-left:1em;
+    }
+  }
+
+  .list--horizontal {
+    dt {
+      float: left;
+      width: 160px;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    dd {
+      margin-left:180px;
+    }
   }
